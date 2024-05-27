@@ -4,6 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>The Holy Quran</title>
+	<script type="module" defer>
+		import {Client} from 'https://esm.sh/appwrite'
+		const client = new Client()
+		client
+		    .setEndpoint('https://cloud.appwrite.io/v1')
+	        .setProject('quran-json');
+	</script>
 </head>
 <body>
 Holy Quran
